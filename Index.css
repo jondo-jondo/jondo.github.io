@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('Fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Keeps text visible while the custom font loads */
+}
+
+.OP
+{
+    background-color: #00f2ff;
+    background-color: #0062ff;
+    background-color: #3d6aff;
+    background-color: #9ff7ff;
+    border-radius: 100%;
+    border: 0px;
+}
+
+h1
+{
+    font-family: 'MyCustomFont', sans-serif;
+}
+
+h2
+{
+    font-family: 'MyCustomFont', sans-serif;
+}
